@@ -1,11 +1,16 @@
-# STM32F031 Development environment setup on MacOS
-In order to start having fun with the STM32F031K MCUs, one has to setup the
-development environment. That I have found problematic, when I was following
-the Programista magazine's Cortex M0 programming tutorial. So I tried to leave
-Windows behind an go with MacOS Catalina.
+# STM32 development environment setup
+It seems that getting working environment for the STM32 microcontroller
+development is not really that straightforward - especially on MacOS. Hence
+I've created this small document, which is intended to help with the setup.
 
-## Installing the necessary toolchain
-
+## MACOS
+To start having fun with the STM32 MCUs, you will need (at least) the
+following set of development tools:
+- Apple XCode
+- Homebrew
+- GNU ARM Embedded Toolchain
+- OpenOCD
+- or - if you don't like OpenOCD - st-link
 
 ### 1. Install Apple XCode and Command Line Tools
 That's all the good Unix stuff.
@@ -100,3 +105,4 @@ Info : stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
 
 # TODO:
 - Add info about the st-link and usage
+- Add Windows
