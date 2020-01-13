@@ -1,7 +1,7 @@
 # STM32 development environment setup
-It seems that getting working environment for the STM32 microcontroller
-development is not really that straightforward - especially on MacOS. Hence
-I've created this small document, which is intended to help with the setup.
+It seems that getting a working environment for the STM32 microcontroller
+development is not that straightforward - especially on macOS. Hence I've
+created this small document, which is intended to help with the setup.
 
 ## MACOS
 To start having fun with the STM32 MCUs, you will need (at least) the
@@ -103,6 +103,11 @@ Info : Target voltage: 3.255336
 Info : stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
 ```
 
-# TODO:
-- Add info about the st-link and usage
-- Add Windows
+### 5. Install st-link
+
+
+## WINDOWS
+
+TODO:
+- make sure the stlink and Windows parts are done
+- remove this file - move the write up into the README.md
