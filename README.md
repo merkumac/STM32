@@ -1,9 +1,9 @@
 # STM32
-An after-hours, low-level fun with STM32 processors (eg. STM32F031K6, STM32F103RB
-etc.) maybe some electronics...
+After-hours, low-level projects for fun with STM32 processors (e.g. STM32F031K6,
+STM32F103RB, etc.) maybe some electronics...
 
-**DISCLAIMER**: All that's written here are notes. Something that I wrote, as
-I was experiencing the STM32. Please don't take that too seriously.
+DISCLAIMER: All that's written here are notes. Something that I wrote, as I was
+experiencing the STM32. Please don't take that too seriously.
 
 ## STM32 development environment setup
 It seems that getting the working environment for the STM32 microcontroller
